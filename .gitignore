@@ -1,0 +1,4 @@
+node_modules/
+*.png
+members.js
+auth-info.js

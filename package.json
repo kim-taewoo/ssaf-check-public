@@ -1,0 +1,27 @@
+{
+  "name": "ssaf-check",
+  "version": "1.0.0",
+  "description": "An Utility to check members attendance",
+  "main": "check.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kim-taewoo/ssaf-check.git"
+  },
+  "keywords": [
+    "mini-project"
+  ],
+  "author": "taewoo kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kim-taewoo/ssaf-check/issues"
+  },
+  "homepage": "https://github.com/kim-taewoo/ssaf-check#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "puppeteer": "^2.1.1",
+    "yargs": "^15.3.1"
+  }
+}
