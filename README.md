@@ -18,9 +18,11 @@
 1. Github 저장소에서 `ZIP` 압축파일을 다운받아 압축을 풀거나 `git clone` 합니다. 
 
 1. 크롬 브라우저의 오른쪽 위에는 세로로 점 3개가 찍힌 아이콘이 있습니다. _아이콘 클릭 > 도구 더보기 > 확장프로그램_ 순서로 들어가 확장프로그램 탭을 엽니다.
+
     ![chrome1](./markdown-images/chrome1.png)
 
 1. 오른쪽 위의 **개발자 모드** 를 키고, 새로 뜨는 왼쪽의 *압축해제된 확장 프로그램을 로드합니다.* 라는 버튼을 클릭합니다.
+
     ![chrome2](./markdown-images/chrome2.PNG)
 
 1. 팝업되는 탐색창에서 다운받은 폴더 안의 `ssafCheckChrome` 폴더를 확장프로그램 폴더 경로로 지정합니다. (전체 프로젝트 폴더가 아님에 유의!)
@@ -34,8 +36,11 @@
     ![chrome4](./markdown-images/chrome4.PNG)
 
 1. 버튼을 클릭하면 아래와 같은 형식으로 가장 최근의 퀴즈에 아직 참가하지 않은 사람을 찾을 수 있습니다. (주말처럼 진행중인 새로운 퀴즈가 없을 때는 23명이 나오는 게 정상입니다.)
+
     ![chrome5](./markdown-images/chrome5.PNG)
+
     진행중인 퀴즈가 없을 때: 
+
     ![chrome6](./markdown-images/chrome6.PNG)
 
 ### 반영되어 있는 예외사항
@@ -56,20 +61,25 @@
 ### 사용법
 
 1. Node.js 설치가 필요합니다. [node.js](https://nodejs.org/) 사이트에서 추가적인 옵션 없이 설치합니다. (추가 옵션 설치시 시간이 오래 걸리고 예상치 못한 프로그램이 설치될 수 있습니다.)
+
     ![node1](./markdown-images/node1.PNG)
 
 1. Node.js 설치가 제대로 되었음을 터미널에서 `node -v` 명령어로 확인할 수 있습니다. (버전정보 출력)
+
     ![node2](./markdown-images/node2.PNG)
 
 1. `cd` 명령어를 활용해 Github 프로젝트 폴더 경로로 접근한 후, `npm install` 명령어로 필요한 라이브러리를 설치합니다.
+
     ![node3](./markdown-images/node3.PNG)
 
 1. 설치가 완료되었다면 이제 명령어로 정보를 받아볼 수 있습니다.
 
 1. `node check mattermost` 명령어는 현재 시간 진행되고 있는 퀴즈에 참가하지 않은 사람을 연락처와 함께 출력합니다.
+
     ![node4](./markdown-images/node4.PNG)
 
 1. `node check mattermost-log` 는 위 명령어의 결과가 맞는지 확인하기 위해 퀴즈 답을 작성한 사람들의 글을 모두 출력합니다. (그다지 쓸모가 있진 않은듯)
+
     ![node5](./markdown-images/node5.PNG)
 
 ## 추가
