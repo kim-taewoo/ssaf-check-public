@@ -18,7 +18,7 @@
 1. Github 저장소에서 `ZIP` 압축파일을 다운받아 압축을 풀거나 `git clone` 합니다. 
 
 1. 크롬 브라우저의 오른쪽 위에는 세로로 점 3개가 찍힌 아이콘이 있습니다. _아이콘 클릭 > 도구 더보기 > 확장프로그램_ 순서로 들어가 확장프로그램 탭을 엽니다.
-    ![chrome1](./markdown-images/chrome1.PNG)
+    ![chrome1](./markdown-images/chrome1.png)
 
 1. 오른쪽 위의 **개발자 모드** 를 키고, 새로 뜨는 왼쪽의 *압축해제된 확장 프로그램을 로드합니다.* 라는 버튼을 클릭합니다.
     ![chrome2](./markdown-images/chrome2.PNG)
