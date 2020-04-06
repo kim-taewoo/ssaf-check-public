@@ -46,7 +46,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
     const membersDone = [];
 
-    for (let i = data.length - 2; i >= 0; i--) {
+    for (let i = data.length - 1; i >= 0; i--) {
       if (data[i].msg.indexOf(request.divider) > -1 || (data[i].time.slice(0, 2) === "오후" && data[i].time.slice(3, 4) >= 6)) {
         break;
       } else {
