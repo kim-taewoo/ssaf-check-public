@@ -41,10 +41,14 @@ const scrapePosts = async () => {
   const data = await page.evaluate(async () => {
     const posts = document.querySelectorAll('.post__content');
     const posts_detail = Array.from(posts).map(p => {
-      const name = p.querySelector('button.user-popover').innerText;
-      const time = p.querySelector('.post__time').innerText;
-      const msg = p.querySelector('.post-message__text').innerText;
-
+      let name, msg, time;
+      try {
+        name = p.querySelector('button.user-popover').textContent;
+        msg = p.querySelector('.post-message__text').textContent;
+        time = p.querySelector('.post__time').textContent;
+      } catch (error) {
+        console.log(error)
+      }
       return {
         name,
         time,
