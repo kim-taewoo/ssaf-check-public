@@ -28,7 +28,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   if (request.msg === 'quiz') {
     const posts = document.querySelectorAll('.post__content');
     const data = Array.from(posts).map(p => {
-      let name, msg, time;
+      let name="", msg="", time="";
       try {
         name = p.querySelector('button.user-popover').textContent;
         msg = p.querySelector('.post-message__text').textContent;
